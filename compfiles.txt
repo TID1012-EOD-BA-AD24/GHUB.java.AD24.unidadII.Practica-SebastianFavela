@@ -1,2 +1,4 @@
+./pila/Nodo.java
+./pila/Pila.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
