@@ -55,6 +55,11 @@ public class Pila<T> {
         else
            return null;
     }
+
+    //Devuelva la posición del objeto obj de la pila
+    public int buscar(Object obj){
+
+    }
     
     
     
