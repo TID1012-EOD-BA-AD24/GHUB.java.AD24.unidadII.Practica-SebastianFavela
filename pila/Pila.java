@@ -58,6 +58,16 @@ public class Pila<T> {
 
     //Devuelva la posición del objeto obj de la pila
     public int buscar(Object obj){
+        Nodo<T> siguiente = cabeza;
+        int pos = 0;
+        while (!esVacia()){
+            if (siguiente.getValor().equals(obj))
+               return pos;
+
+            siguiente = siguiente.getSiguiente();
+            pos++;
+        }
+        return -1;
 
     }
     
