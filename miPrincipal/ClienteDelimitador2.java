@@ -1,7 +1,7 @@
 package miPrincipal;
 import pila.Pila;
 
-public class ClienteDelimitador {
+public class ClienteDelimitador2 {
 
 	public static void main(String[] args) {
 		String expr = "(a+b)/2"; //CORRECTA

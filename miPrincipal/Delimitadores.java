@@ -19,7 +19,7 @@ public class Delimitadores{
             {
                 //En caso de Apilar
                 case '(':
-                    pcaracteres.apilar(charToString(')'));
+                    pcaracteres.apilar(")");
                     break;
                 
                 case '[':
@@ -84,8 +84,7 @@ public class Delimitadores{
 
     
     private static boolean siguienteEsDiagonal(String cadena, int posicion) {
-        System.out.println("longitud de la cadena "+cadena.length());
-        System.out.println("Posicion de cadena "+posicion);
+       
         if (cadena.length()<posicion)
            return false;
         char car = cadena.charAt(posicion);
