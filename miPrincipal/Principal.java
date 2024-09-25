@@ -1,6 +1,7 @@
 package miPrincipal;
 import pila.Pila;
 import java.util.Stack;
+import cola.Cola;
 
 
 public class Principal {
@@ -9,6 +10,8 @@ public class Principal {
     }
 
     public static void main(String[] args) {
+
+      /* 
         
        // System.out.println(new Principal().getGreeting()); 
        //Crear una nueva pilla de Enteros
@@ -77,6 +80,39 @@ public class Principal {
        } catch (Exception e) {
             System.out.println(e.getMessage());
        }
+      */
+      //Demostración del uso de la estructura Cola
+      //creo una nueva cola
+      try{
+         Cola<Integer> cola = new Cola<Integer>();
+         //se encolan algunos elementos
+         cola.encolar(12);
+         cola.encolar(13);
+         cola.encolar(14);
+         cola.encolar(15);
+         System.out.println("El tamaño de la cola ="+cola.getTamanio());
+         //imprimir el primer elemento de la cola
+         System.out.println("El primer elememto de la cola es= "+cola.frente() );
+         cola.desencolar();
+         
+         //imprimir el ultimo elemento de la cola
+         System.out.println("El último elemento de la cola es "+cola.detras());
+
+         System.out.println("El primer elememto de la cola es= "+cola.frente().toString() );
+         cola.desencolar();
+         System.out.println("El primer elememto de la cola es= "+cola.frente().toString() );
+         cola.desencolar();
+         System.out.println("El primer elememto de la cola es= "+cola.frente().toString() );
+         cola.desencolar();
+         System.out.println("El primer elememto de la cola es= "+cola.frente().toString() );
+      } catch(Exception e){
+         System.out.println("valor nulo");
+
+      }
+
+
+
+
        
 
 

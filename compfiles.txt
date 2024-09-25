@@ -1,6 +1,9 @@
+./cola/Nodo.java
+./cola/Cola.java
 ./pila/Nodo.java
 ./pila/Pila.java
 ./miPrincipal/Delimitadores.java
-./miPrincipal/ClienteDelimitador.java
 ./miPrincipal/Principal.java
+./miPrincipal/ClienteDelimitador2.java
+./miPrincipal/AppDelimitador.java
 ./miTest/AppTest.java
