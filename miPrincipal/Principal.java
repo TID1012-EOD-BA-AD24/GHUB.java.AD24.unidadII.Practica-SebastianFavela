@@ -2,6 +2,8 @@ package miPrincipal;
 import pila.Pila;
 import java.util.Stack;
 import cola.Cola;
+import java.util.Queue;
+import java.util.LinkedList;
 
 
 public class Principal {
@@ -46,8 +48,6 @@ public class Principal {
        else
           System.out.println("elemento no encontrado");
 
-
-
       
        try{
             //  USO DE LA CLASE STACK
@@ -83,6 +83,7 @@ public class Principal {
       */
       //Demostración del uso de la estructura Cola
       //creo una nueva cola
+      /* 
       try{
          Cola<Integer> cola = new Cola<Integer>();
          //se encolan algunos elementos
@@ -109,6 +110,29 @@ public class Principal {
          System.out.println("valor nulo");
 
       }
+         */
+      //Demostración del uso de la estructura Queue
+      //creo una nueva cola generica
+      Queue<String> micola = new LinkedList<String>() ;
+      //agregar tres elementos a la cola
+      micola.add("elemento 0");
+      micola.add("elemento 1");
+      micola.add("elemento 2");
+      //mostrar el primer elemento de la cola
+      System.out.println("el primer elemento de la cola es: "+micola.peek());
+      //eliminar el primer elemento de la cola
+      micola.remove();
+
+      //mostrar el primer elemento de la cola
+      System.out.println("el primer elemento de la cola es: "+micola.peek());
+      micola.remove();
+      System.out.println("el primer elemento de la cola es: "+micola.peek());
+      micola.remove();
+      System.out.println("el primer elemento de la cola es: "+micola.peek());
+
+
+
+
 
 
 
