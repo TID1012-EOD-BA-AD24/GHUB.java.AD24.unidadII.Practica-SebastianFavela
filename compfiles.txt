@@ -1,5 +1,7 @@
 ./cola/Nodo.java
 ./cola/Cola.java
+./hash/TestHashTable.java
+./hash/Persona.java
 ./pila/Nodo.java
 ./pila/Pila.java
 ./miPrincipal/Delimitadores.java

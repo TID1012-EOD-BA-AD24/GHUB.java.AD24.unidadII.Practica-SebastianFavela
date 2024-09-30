@@ -121,6 +121,7 @@ public class Principal {
       //mostrar el primer elemento de la cola
       System.out.println("el primer elemento de la cola es: "+micola.peek());
       //eliminar el primer elemento de la cola
+      
       micola.remove();
 
       //mostrar el primer elemento de la cola
