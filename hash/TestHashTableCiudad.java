@@ -2,6 +2,7 @@ package hash;
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.util.Scanner;
+import java.util.Iterator;
 
 public class TestHashTableCiudad {
     public static void main(String[] args) {
@@ -42,6 +43,8 @@ public class TestHashTableCiudad {
             aux = claves.nextElement();
             System.out.println(tabla.get(aux));
         }
+
+       
     }
     
 }
