@@ -1,4 +1,4 @@
-package cola;
+package lista;
 public class Nodo <T> {
     //Atributo valor de tipo T. Almacena la referencia al
     //objeto que se guarda en el nodo

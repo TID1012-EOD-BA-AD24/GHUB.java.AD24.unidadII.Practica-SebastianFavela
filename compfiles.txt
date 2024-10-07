@@ -2,8 +2,13 @@
 ./cola/Cola.java
 ./hash/TestHashTable.java
 ./hash/Persona.java
+./hash/TestHashTableCiudad.java
+./hash/Ciudad.java
 ./pila/Nodo.java
 ./pila/Pila.java
+./lista/Nodo.java
+./lista/PosicionIlegalException.java
+./lista/Lista.java
 ./miPrincipal/Delimitadores.java
 ./miPrincipal/Principal.java
 ./miPrincipal/ClienteDelimitador2.java
