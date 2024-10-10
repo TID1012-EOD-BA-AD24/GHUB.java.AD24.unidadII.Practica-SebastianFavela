@@ -1,6 +1,8 @@
 package lista;
+import java.util.Objects;
 
-public class Persona {
+
+public class Persona implements Comparable<Persona> {
     
     private int id;
     private String nombre ;
@@ -42,6 +44,25 @@ public class Persona {
         
         return "ID = "+id+" Nombre = "+nombre + " Edad = "+edad;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Persona persona = (Persona) o;
+        return id == persona.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+
+    @Override
+    public int compareTo(Persona otraPersona) {
+        return Integer.compare(this.id, otraPersona.id);
+    }
+
     
 
 }
