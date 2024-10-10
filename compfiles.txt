@@ -6,9 +6,14 @@
 ./hash/Ciudad.java
 ./pila/Nodo.java
 ./pila/Pila.java
+./lista/DemoLinkedList.java
 ./lista/Nodo.java
 ./lista/PosicionIlegalException.java
+./lista/clienteMainLista.java
+./lista/Persona.java
+./lista/DemoArrayList.java
 ./lista/Lista.java
+./lista/ClienteMainList.java
 ./miPrincipal/Delimitadores.java
 ./miPrincipal/Principal.java
 ./miPrincipal/ClienteDelimitador2.java
