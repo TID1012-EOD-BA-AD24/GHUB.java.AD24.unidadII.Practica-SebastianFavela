@@ -15,6 +15,7 @@
 ./cola/Nodo.java
 ./cola/Cola.java
 ./listaContactos/Contacto.java
+./listaContactos/ListaDeContactos.java
 ./pila/Nodo.java
 ./pila/Pila.java
 ./miPrincipal/AppDelimitador.java
