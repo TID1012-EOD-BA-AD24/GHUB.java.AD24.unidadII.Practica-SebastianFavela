@@ -1,39 +1,24 @@
+package listaContactos;
+import lista.Lista;
 import lista.PosicionIlegalException;
 
 public class ListaDeContactos{
+    private Lista<Contacto> contactos;
+
     public ListaDeContactos(){
+        contactos = new Lista<Contacto>();
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public boolean(String nombres, String apellido, string direccion, 
+    public Lista<Contacto> mostrarTodosLosContactos(){
+        return contactos;
+    }
+    public boolean agregarContacto(String nombres, String apellido, string direccion, 
     string correo, string telefono, String celular) throws PosicionIlegalException{
         Contacto con = buscarContacto(nombres,apellidos);
         if(con == null)
         {
-            Contacto nuevoo = new Contacto(nombres,apellidos,direccion, correo, telefono, telefono){
-                contactos.agregar(nuevo);
+            Contacto nuevo = new Contacto(nombres,apellidos,direccion, correo, telefono, telefono){
+                (contactos).agregar(nuevo);
                 return true;
             }else{
                 return false;
@@ -50,7 +35,6 @@ public class ListaDeContactos{
                 }
             }
             return null;
-        }
     }
 
 }
