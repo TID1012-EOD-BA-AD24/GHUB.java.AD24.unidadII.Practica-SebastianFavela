@@ -1,13 +1,13 @@
 package listaContactos;
     public class Contacto{
-        private string nombres;
-        private string apellidos;
-        private string direccion;
-        private string correo;
-        private string telefono;
-        private string celular;
+        private String nombres;
+        private String apellidos;
+        private String direccion;
+        private String correo;
+        private String telefono;
+        private String celular;
 
-        public Contacto(String nombres, String apellido, string direccion, string correo, string telefono, string celular){
+        public Contacto(String nombres, String apellido, String direccion, String correo, String telefono, String celular){
             this.nombres = nombres;
             this.apellido = apellidos;
             this.direcion = direccion;
@@ -18,7 +18,7 @@ package listaContactos;
         public String getNombres(){
             return nombres;
         }
-        public void setNombre(String Nombres){
+        public void setNombres(String nombres){
             this.nombres = nombres;
         }
         public String getapellido(){

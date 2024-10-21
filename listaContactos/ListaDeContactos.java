@@ -12,12 +12,12 @@ public class ListaDeContactos{
     public Lista<Contacto> mostrarTodosLosContactos(){
         return contactos;
     }
-    public boolean agregarContacto(String nombres, String apellido, String direccion, 
+    public boolean agregarContacto(String nombres, String apellidos, String direccion, 
     string correo, string telefono, String celular) throws PosicionIlegalException{
         Contacto con = buscarContacto(nombres,apellidos);
         if(con == null)
         {
-            Contacto nuevo = new Contacto(nombres,apellidos,direccion, correo, telefono, celular){
+            Contacto nuevo = new Contacto(nombres,apellidos,direccion, correo, telefono, celular);
                 (contactos).agregar(nuevo);
                 return true;
             }else{
